@@ -2,7 +2,7 @@
 
 Submitted by: **Benjamin Niyodusenga**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **X** hours spent in total
 
@@ -35,6 +35,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+1. On the 7th challenge, I worked step by step to get to the correct layout but when it came to the secret keys I couldn't figure out the secret keys. I tried reread all the code but I was looking at the wrong problem. Until I broke down step by step the questions and found that I was missing toLocaleString.
+
 
 ## License
 

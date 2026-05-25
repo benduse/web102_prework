@@ -18,7 +18,12 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
+* [X ] The funded games display the current progress bar to allow visitors know at glance which games need more funding
+* [X ] active buttons functionality for visitors to know which button is active at the moment. 
+
+
 *[X] Footer for privacy policy and contact informaton
+
 
 ## Video Walkthrough
 

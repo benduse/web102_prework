@@ -26,7 +26,8 @@ function addGamesToPage(games) {
 
         // add the class game-card to the list
         gameCard.classList.add("game-card");
-
+        // calculate the percentage funded
+        const fundingPercent = Math.min((game.pledged / game.goal) * 100,100)
 
         // set the inner HTML using a template literal to display some info 
         // about each game
@@ -36,6 +37,10 @@ function addGamesToPage(games) {
 <h2>${game.name}</h2>
 <p>${game.description}</p>
 <p>Backers: ${game.backers}</p>
+<div class="progress-bar">
+    <div class="progress-fill" style="width: ${fundingPercent}%"></div>
+</div>
+<p class="funding-text">$${game.pledged.toLocaleString('en-US')} raised of $${game.goal.toLocaleString('en-US')} goal</p>
 `;
 
         // append the game to the games-container
@@ -68,10 +73,20 @@ const gamesCard = document.getElementById("num-games");
 const totalGames = GAMES_JSON.length;
 gamesCard.innerHTML = `${totalGames.toLocaleString('en-US')}`;
 
+// remove active class from all buttons
+function removeActiveClass() {
+    unfundedBtn.classList.remove("active-btn");
+    fundedBtn.classList.remove("active-btn");
+    allBtn.classList.remove("active-btn");
+}
 
 // show only games that do not yet have enough funding
 function filterUnfundedOnly() {
     deleteChildElements(gamesContainer);
+    
+    removeActiveClass();
+    unfundedBtn.classList.add("active-btn");
+
 
     // use filter() to get a list of games that have not yet met their goal
 const filterUnfundedOnly = GAMES_JSON.filter( game => {
@@ -85,6 +100,10 @@ addGamesToPage(filterUnfundedOnly);
 // show only games that are fully funded
 function filterFundedOnly() {
     deleteChildElements(gamesContainer);
+
+    removeActiveClass();
+    fundedBtn.classList.add("active-btn");
+
 
     // use filter() to get a list of games that have met or exceeded their goal
 filterFundedOnly = GAMES_JSON.filter( game => {
@@ -101,6 +120,9 @@ addGamesToPage(filterFundedOnly);
 // show all games
 function showAllGames() {
     deleteChildElements(gamesContainer);
+
+    removeActiveClass();
+    allBtn.classList.add("active-btn");
 
     // add all games from the JSON data to the DOM
 addGamesToPage(GAMES_JSON);

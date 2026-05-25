@@ -35,12 +35,13 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
-1. On the 7th challenge, I worked step by step to get to the correct layout but when it came to the secret keys I couldn't figure out the secret keys. I tried reread all the code but I was looking at the wrong problem. Until I broke down step by step the questions and found that I was missing toLocaleString.
+1. On the 7th challenge, I worked step by step to get to the correct layout but when it came to the secret keys I couldn't figure out the secret keys. I tried reread all the code but I was looking at the wrong problem. Until I broke down step by step the questions and found that I was missing toLocaleString. It is simple to miss smal details when not paying full attention to the project. I learned that attention to details matter when working on a project.
+2. I also had a hard time keeping up with all the requirements. I reminded myself why I started the project and the overall goal I was tyriigto achieve thus I kept going with the prject until the end. 
 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2026 Benjamin Niyodusenga
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

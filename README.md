@@ -18,6 +18,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
+*[X] Footer for privacy policy and contact informaton
 
 ## Video Walkthrough
 
@@ -37,6 +38,7 @@ GIF created with ...
 Describe any challenges encountered while building the app.
 1. On the 7th challenge, I worked step by step to get to the correct layout but when it came to the secret keys I couldn't figure out the secret keys. I tried reread all the code but I was looking at the wrong problem. Until I broke down step by step the questions and found that I was missing toLocaleString. It is simple to miss smal details when not paying full attention to the project. I learned that attention to details matter when working on a project.
 2. I also had a hard time keeping up with all the requirements. I reminded myself why I started the project and the overall goal I was tyriigto achieve thus I kept going with the prject until the end. 
+3. deciding the optional feature to implement without adding too much work load or breaking the whole application. I prioritized the features that add value to the web app and improves the overall clarity. That is why I added footer for any questions that the visitors might have and additional information regarding privacy policy. 
 
 
 ## License

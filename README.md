@@ -20,8 +20,6 @@ The following **optional** features are implemented:
 * [ ] List anything else that you can get done to improve the app functionality!
 * [X ] The funded games display the current progress bar to allow visitors know at glance which games need more funding
 * [X ] active buttons functionality for visitors to know which button is active at the moment. 
-
-
 *[X] Footer for privacy policy and contact informaton
 
 
@@ -29,12 +27,12 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://youtu.be/sEDRPBMoEzg' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://youtu.be/sEDRPBMoEzg' title='Video Walkthrough' width='100px' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
-[Quick Time Player] https://youtu.be/sEDRPBMoEzg
+[Quick Time Player] https://youtu.be/sEDRPBMoEzg --->
 
 ## Notes
 
